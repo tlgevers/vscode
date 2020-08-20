@@ -1,0 +1,111 @@
+{
+    "git.ignoreLegacyWarning": true,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "gitlens.advanced.messages": {
+        "suppressGitVersionWarning": true
+    },
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w"
+            ],
+            "commands": [
+                ":w"
+            ]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "vim.easymotionMarkerBackgroundColor": "#990000",
+    "editor.minimap.enabled": false,
+    "terraform.indexing": {
+        "enabled": false,
+        "liveIndexing": false,
+        "delay": 500,
+        "exclude": [
+            ".terraform/**/*",
+            "**/.terraform/**/*"
+        ]
+    },
+    "terraform.languageServer": {
+        "enabled": true,
+        "args": []
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Monokai",
+    "cloudcode.gke": {
+        "projectIds": [
+            "macs-engineering"
+        ]
+    },
+    "vs-kubernetes": {
+        "vs-kubernetes.minikube-path.linux": "/home/macsdevops/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vs-kubernetes.helm-path.linux": "/home/macsdevops/.vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vs-kubernetes.draft-path.linux": "/home/macsdevops/.vs-kubernetes/tools/draft/linux-amd64/draft"
+    },
+    "go.formatTool": "goimports",
+    "workbench.colorCustomizations": {
+        "terminal.background": "#231E18",
+        "terminal.foreground": "#CABCB1",
+        "terminalCursor.background": "#CABCB1",
+        "terminalCursor.foreground": "#CABCB1",
+        "terminal.ansiBlack": "#231E18",
+        "terminal.ansiBlue": "#88A4D3",
+        "terminal.ansiBrightBlack": "#9D8B70",
+        "terminal.ansiBrightBlue": "#88A4D3",
+        "terminal.ansiBrightCyan": "#6EB958",
+        "terminal.ansiBrightGreen": "#B7BA53",
+        "terminal.ansiBrightMagenta": "#BB90E2",
+        "terminal.ansiBrightRed": "#D35C5C",
+        "terminal.ansiBrightWhite": "#E4D4C8",
+        "terminal.ansiBrightYellow": "#E0AC16",
+        "terminal.ansiCyan": "#6EB958",
+        "terminal.ansiGreen": "#B7BA53",
+        "terminal.ansiMagenta": "#BB90E2",
+        "terminal.ansiRed": "#D35C5C",
+        "terminal.ansiWhite": "#CABCB1",
+        "terminal.ansiYellow": "#E0AC16"
+    },
+    "terminal_themes.style": "Woodland (base16)",
+    "sync.gist": "b50781bb0d449cd1354aa2593cb4c568",
+
+}
