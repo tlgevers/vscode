@@ -105,7 +105,6 @@
         "terminal.ansiWhite": "#CABCB1",
         "terminal.ansiYellow": "#E0AC16"
     },
-    "terminal_themes.style": "Woodland (base16)",
-    "sync.gist": "b50781bb0d449cd1354aa2593cb4c568",
+    "terminal_themes.style": "Woodland (base16)"
 
 }
